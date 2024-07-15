@@ -3,11 +3,11 @@ import { Card, CardContent } from "../../../components/ui/card";
 import { TreeNode} from "../../../utils";
 import TestDetail from "./test-detail";
 
-export type CheckTreeProps = {
+export type TestResultProps = {
     node: TreeNode
 }
 
-const TestResult = ({ node }: CheckTreeProps) => {
+const TestResult = ({ node }: TestResultProps) => {
 
     return (
         <>
